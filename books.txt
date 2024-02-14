@@ -1,0 +1,6 @@
+Outliers,Stephen Hawking,1933,39
+Hayvan Çiftliği,George Orwell,1953,29
+Sanayi Devrimi,Stearn,1954,35
+Gölgelerin Efendisi,John Flanagan,2010,482
+Buyology,Zweig,1942,39
+İstanbul Hatırası,Ahmet Ümit,2011,194
