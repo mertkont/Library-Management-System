@@ -4,11 +4,37 @@
 
 A simple Library Management System implemented in Python using the Tkinter library for the graphical user interface. This system allows users to list books, add new books, and remove existing books from a database file (`books.txt`). If this text file does not exist, it will be created after running python file.
 
-## Features
+## How to Run
 
-- **List Books:** View a list of all books stored in the system.
-- **Add Book:** Add new books to the library database.
-- **Remove Book:** Remove existing books from the library database.
+1. Ensure you have Python installed on your system.
+2. Run the script `project.py`.
+3. The main menu will appear, allowing you to navigate through different functionalities.
+
+## Code Structure
+
+### 1. Library Class
+
+- **Constructor (`__init__`):** Initializes the library by opening the `books.txt` file in append mode.
+  
+- **Destructor (`__del__`):** Closes the file when the Library instance is destroyed.
+
+- **`lib` Method:** Creates the main menu using Tkinter, allowing users to interact with the library.
+
+### 2. Add Book
+
+- **`add_book_window` Method:** Displays a window for adding a new book with input fields for title, author, release year, and number of pages.
+
+### 3. Remove Book
+
+- **`remove_book_window` Method:** Displays a window for removing a book. Users can select or enter the book title, and the system removes the selected book from the file.
+
+### 4. List Books
+
+- **`show_books_window` Method:** Displays a window listing all available books with their titles and authors.
+
+### 5. Execute Functionality
+
+- **`execute` Function:** Executes the selected functionality based on user input from the main menu.
 
 ## Getting Started
 
